@@ -1,0 +1,1 @@
+# mvvm_base_template
