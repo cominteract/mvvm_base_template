@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing based on the iOS app   -->
+    <dimen name="spacing_xxx_small">1dp</dimen>
+    <dimen name="spacing_xx_small">2dp</dimen>
+    <dimen name="spacing_x_small">4dp</dimen>
+    <dimen name="spacing_x_small_medium">6dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_small_medium">12dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+
+    <dimen name="spacing_medium_large">20dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_x_large">32dp</dimen>
+    <dimen name="spacing_xx_large">48dp</dimen>
+    <dimen name="spacing_xxx_large">64dp</dimen>
+    <dimen name="spacing_xxxx_large">72dp</dimen>
+    <dimen name="spacing_xxxxx_large">90dp</dimen>
+    <dimen name="spacing_xxxxxx_large">120dp</dimen>
+    <!-- font sizes  -->
+    <dimen name="font_size_title_1">17sp</dimen>
+    <dimen name="font_size_title_2">16sp</dimen>
+
+    <dimen name="font_size_heading_1">25sp</dimen>
+    <dimen name="font_size_heading_2">24sp</dimen>
+    <dimen name="font_size_heading_3">23sp</dimen>
+    <dimen name="font_size_heading_4">22sp</dimen>
+    <dimen name="font_size_heading_5">21sp</dimen>
+
+    <dimen name="font_size_subheading_1">20sp</dimen>
+    <dimen name="font_size_subheading_2">18sp</dimen>
+    <dimen name="font_size_subheading_3">17sp</dimen>
+    <dimen name="font_size_subheading_4">16sp</dimen>
+
+    <dimen name="font_size_body_1">19sp</dimen>
+    <dimen name="font_size_body_2">18sp</dimen>
+    <dimen name="font_size_body_3">15sp</dimen>
+    <dimen name="font_size_body_4">13sp</dimen>
+    <dimen name="font_size_body_5">12sp</dimen>
+    <dimen name="font_size_body_6">11sp</dimen>
+
+    <dimen name="font_size_form_1">16sp</dimen>
+    <dimen name="font_size_form_2">17sp</dimen>
+
+    <dimen name="font_size_label_1">15sp</dimen>
+    <dimen name="font_size_label_2">14sp</dimen>
+    <dimen name="font_size_label_3">13sp</dimen>
+    <dimen name="font_size_label_4">12sp</dimen>
+
+    <dimen name="font_size_link_1">16sp</dimen>
+    <dimen name="font_size_link_2">15sp</dimen>
+    <dimen name="font_size_link_3">13sp</dimen>
+
+    <dimen name="font_size_button_1">16sp</dimen>
+    <dimen name="font_size_button_2">17sp</dimen>
+    <dimen name="font_size_button_3">18sp</dimen>
+    <dimen name="font_size_button_4">19sp</dimen>
+
+    <dimen name="button_radius">6dp</dimen>
+    <dimen name="button_radius_medium">4dp</dimen>
+    <dimen name="button_radius_small">2dp</dimen>
+    <!-- Z translation to apply when button is pressed -->
+
+
+    <dimen name="card_radius_small">4dp</dimen>
+    <dimen name="card_radius_medium">8dp</dimen>
+    <dimen name="card_radius_large">12dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+
+    <dimen name="button_primary_border">4dp</dimen>
+    <dimen name="button_secondary_border">6dp</dimen>
+    <dimen name="button_tertiary_border">4dp</dimen>
+
+
+</resources>

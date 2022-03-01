@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/selector_ic_navigation_home"
+        />
+    <item
+        android:title="Gift"
+        android:id="@+id/giftFragment"
+        android:icon="@drawable/selector_ic_navigation_gift"
+        />
+    <item
+        android:title="Chat"
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/selector_ic_navigation_chat"
+        />
+    <item
+        android:title="Profile"
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/selector_ic_navigation_profile"
+        />
+
+</menu>

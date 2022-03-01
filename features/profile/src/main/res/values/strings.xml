@@ -1,0 +1,11 @@
+<resources>
+    <string name="full_name">%s %s %s</string>
+    <string name="upload_picture">Upload Photo</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="cancel_profile">Cancel</string>
+    <string name="logout_profile">LOGOUT</string>
+    <string name="login_profile">LOGIN</string>
+    <string name="gender_label">Gender :</string>
+    <string name="occupation_label">Occupation :</string>
+</resources>

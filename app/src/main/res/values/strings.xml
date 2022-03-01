@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVMTemplate</string>
+    <string name="title_login">login</string>
+    <string name="title_profile">profile</string>
+    <string name="title_gift">gift</string>
+    <string name="title_chat">chat</string>
+    <string name="title_home">home</string>
+</resources>

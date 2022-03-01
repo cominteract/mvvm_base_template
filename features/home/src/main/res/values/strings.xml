@@ -1,0 +1,6 @@
+<resources>
+    <string name="release_dates">\u0020\u2022 Australia : %s \n \u2022 Europe : %s \n \u2022 Japan : %s \n \u2022 NA : %s</string>
+    <string name="publisher_label">Publishers :</string>
+    <string name="developer_label">Developers :</string>
+    <string name="release_dates_label">Release Dates :</string>
+</resources>

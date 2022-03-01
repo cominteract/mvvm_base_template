@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_divider_border"
+    android:padding="@dimen/spacing_medium"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Switch game name"
+        style="@style/Text.SubHeading.1"
+        android:id="@+id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_name"
+        app:layout_constraintStart_toStartOf="@id/text_switch_game_name"
+        app:layout_constraintEnd_toEndOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Switch game desc"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_desc"
+        app:layout_constraintStart_toStartOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Publishers :"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_publisher_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_desc"
+        app:layout_constraintStart_toEndOf="@id/text_switch_game_publisher_label"
+        app:layout_constraintEnd_toEndOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        tools:text="Ubisoft"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_publisher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_publisher"
+        app:layout_constraintStart_toStartOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Developers :"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_developer_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_publisher"
+        app:layout_constraintStart_toEndOf="@id/text_switch_game_developer_label"
+        app:layout_constraintEnd_toEndOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        tools:text="Ubisoft"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_developer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_developer"
+        app:layout_constraintStart_toStartOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Release dates :"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_release_dates_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_switch_game_developer"
+        app:layout_constraintStart_toEndOf="@id/text_switch_game_release_dates_label"
+        app:layout_constraintEnd_toEndOf="@id/text_switch_game_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        tools:text="Europe"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_switch_game_release_dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

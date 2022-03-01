@@ -1,0 +1,12 @@
+rootProject.name = "MVVMTemplate"
+include ':app'
+include ':features:login'
+include ':ui'
+include ':features:profile'
+include ':features:futurama'
+include ':features:chat'
+include ':features:home'
+include ':data'
+include ':common'
+include ':domain'
+include ':core'

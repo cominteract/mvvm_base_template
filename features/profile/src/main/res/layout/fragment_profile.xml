@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_medium"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Profile Name here"
+        style="@style/Text.SubHeading.1"
+        android:id="@+id/text_profile_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Profile Name here"
+        style="@style/Text.SubHeading.1"
+        android:visibility="gone"
+        android:id="@+id/edit_profile_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.imageview.ShapeableImageView
+        app:layout_constraintTop_toBottomOf="@id/text_profile_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/image_profile"
+        android:layout_margin="@dimen/spacing_medium"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+    <com.google.android.material.button.MaterialButton
+        app:layout_constraintTop_toBottomOf="@id/image_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/button_upload"
+        android:text="@string/upload_picture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/button_upload"
+        app:layout_constraintStart_toStartOf="@id/text_profile_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Gender :"
+        android:text="@string/gender_label"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_profile_gender_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/button_upload"
+        app:layout_constraintStart_toEndOf="@id/text_profile_gender_label"
+        app:layout_constraintEnd_toEndOf="@id/text_profile_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Male"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_profile_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintTop_toTopOf="@id/text_profile_gender_label"
+        app:layout_constraintBottom_toBottomOf="@id/text_profile_gender_label"
+        app:layout_constraintStart_toEndOf="@id/text_profile_gender_label"
+        app:layout_constraintEnd_toEndOf="@id/text_profile_name"
+        tools:text="Male"
+        android:visibility="gone"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/edit_profile_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_profile_gender"
+        app:layout_constraintStart_toStartOf="@id/text_profile_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        tools:text="Occupation :"
+        android:text="@string/occupation_label"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_profile_occupation_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/text_profile_gender"
+        app:layout_constraintStart_toEndOf="@id/text_profile_occupation_label"
+        app:layout_constraintEnd_toEndOf="@id/text_profile_name"
+        android:layout_marginVertical="@dimen/spacing_x_small"
+        android:layout_marginStart="@dimen/spacing_small"
+        tools:text="Intergalactic Delivery Boy"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/text_profile_occupation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintTop_toTopOf="@id/text_profile_occupation_label"
+        app:layout_constraintBottom_toBottomOf="@id/text_profile_occupation_label"
+        app:layout_constraintStart_toEndOf="@id/text_profile_occupation_label"
+        app:layout_constraintEnd_toEndOf="@id/text_profile_name"
+        android:layout_marginStart="@dimen/spacing_small"
+        tools:text="Intergalactic Delivery Boy"
+        android:visibility="gone"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/edit_profile_occupation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.button.MaterialButton
+        app:layout_constraintTop_toBottomOf="@id/text_profile_occupation"
+        app:layout_constraintStart_toStartOf="@id/text_profile_name"
+        app:layout_constraintEnd_toEndOf="@id/text_profile_name"
+        android:id="@+id/button_edit"
+        android:text="@string/edit_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        app:layout_constraintTop_toBottomOf="@id/text_profile_occupation"
+        app:layout_constraintStart_toStartOf="@id/text_profile_name"
+        app:layout_constraintEnd_toEndOf="@id/text_profile_name"
+        android:layout_marginVertical="@dimen/spacing_small"
+        android:id="@+id/container_save"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_cancel"
+            android:text="@string/cancel_profile"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_save"
+            android:text="@string/save_profile"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include android:id="@+id/include_progress_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        layout="@layout/progress_dialog" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintBottom_toTopOf="@id/edit_profile_password"
+        app:layout_constraintStart_toStartOf="@id/button_login_or_logout"
+        app:layout_constraintEnd_toEndOf="@id/button_login_or_logout"
+        tools:text="Username here"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/edit_profile_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintBottom_toTopOf="@id/button_login_or_logout"
+        app:layout_constraintStart_toStartOf="@id/button_login_or_logout"
+        app:layout_constraintEnd_toEndOf="@id/button_login_or_logout"
+        tools:text="Username here"
+        style="@style/Text.Label.1.Secondary"
+        android:id="@+id/edit_profile_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/button_login_or_logout"
+        android:text="@string/logout_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

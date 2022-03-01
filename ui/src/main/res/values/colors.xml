@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">@color/palette_grey_500</color>
+    <color name="colorPrimary">@color/palette_white_200</color>
+    <color name="primary_variant">@color/palette_blue_400</color>
+    <color name="color_on_primary">@color/black</color>
+
+    <color name="secondary">@color/palette_red_300</color> <!-- -->
+    <color name="secondary_variant">@color/white</color>
+    <color name="color_on_secondary">@color/palette_red_300</color> <!-- -->
+
+    <color name="accent">@color/palette_blue_100</color>
+
+    <color name="surface">@color/white</color>
+    <color name="color_on_surface">@color/text_primary</color>
+
+    <color name="bg_primary">@color/white</color>
+    <color name="color_on_bg_primary">@color/text_primary</color>
+
+    <color name="bg_secondary">@color/palette_orange_100</color>
+    <color name="bg_tertiary">@color/palette_blue_300</color>
+
+    <color name="inline_error">@color/palette_red_200</color> <!-- -->
+    <color name="color_on_error">@color/white</color>
+
+    <color name="bg_dialog">@color/palette_white_300</color>
+
+    <color name="color_on_bg_notification">@color/palette_primary</color>
+    <color name="border_on_bg_notification">@color/palette_white_300</color>
+    <color name="shadow_on_bg_notification">@color/palette_white_400</color>
+    <color name="background_splash">@color/palette_black_300</color>
+    <color name="active_navigation">@color/palette_blue_400</color>
+    <color name="inactive_navigation">@color/palette_grey_400</color>
+
+    <!-- buttons  -->
+    <color name="btn_surface">@color/surface</color>
+    <color name="btn_primary">@color/palette_blue_400</color>
+    <color name="btn_primary_dark">@color/palette_blue_300</color>
+    <color name="btn_primary_disabled">@color/palette_white_300</color>
+    <color name="btn_primary_pressed">@color/palette_blue_400</color>
+    <color name="btn_primary_border_light">@color/palette_blue_400</color>
+    <color name="btn_primary_border_dark">@color/palette_blue_300</color>
+
+    <color name="btn_secondary">@color/palette_black_100</color>
+    <color name="btn_secondary_disabled">@color/palette_black_200</color>
+
+    <color name="btn_tertiary">@color/palette_black_300</color>
+    <color name="btn_tertiary_disabled">@color/palette_white_400</color>
+
+
+    <!-- text  -->
+    <color name="text_primary">@color/palette_black_200</color>
+    <color name="text_primary_inverse">@color/palette_black_300</color>
+    <color name="text_secondary">@color/palette_black_100</color>
+    <color name="text_tertiary">@color/palette_red_300</color>
+    <color name="text_action">@color/palette_blue_400</color>
+
+    <color name="divider">@color/palette_white_300</color>
+    <color name="background_divider">@color/palette_grey_200</color>
+
+    <color name="txt_on_primary_button">@color/white</color>
+    <color name="txt_on_primary_button_disabled">@color/white</color>
+    <color name="txt_on_secondary_button">@color/palette_blue_400</color>
+    <color name="txt_on_body">@color/palette_grey_300</color>
+    <color name="txt_on_body_secondary">@color/palette_grey_400</color>
+    <color name="txt_on_body_primary">@color/palette_white_400</color>
+    <color name="txt_on_body_inverse">@color/palette_black_300</color>
+    <color name="txt_on_body_light">@color/palette_black_400</color>
+</resources>

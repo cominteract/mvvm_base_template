@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="Text">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Title.1">
+        <item name="android:textSize">@dimen/font_size_title_1</item>
+    </style>
+
+    <style name="Text.Heading">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Heading.1">
+        <item name="android:textSize">@dimen/font_size_heading_1</item>
+    </style>
+
+    <style name="Text.SubHeading">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SubHeading.1">
+        <item name="android:textSize">@dimen/font_size_subheading_1</item>
+    </style>
+
+    <style name="Text.Body">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text.Body.1">
+        <item name="android:textSize">@dimen/font_size_body_1</item>
+    </style>
+
+    <style name="Text.Label" >
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text.Label.1" >
+        <item name="android:textSize">@dimen/font_size_label_1</item>
+    </style>
+
+    <style name="Text.Label.1.Secondary" >
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.Link">
+        <item name="android:textColor">@color/text_action</item>
+    </style>
+
+
+</resources>

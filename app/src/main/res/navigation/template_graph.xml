@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/game_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ainsigne.home.presenter.HomeFragment"
+        android:label="Home">
+    </fragment>
+    <fragment
+        android:id="@+id/giftFragment"
+        android:name="com.ainsigne.futurama.presenter.FuturamaCharactersFragment"
+        android:label="Futurama">
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.ainsigne.chat.ChatFragment"
+        android:label="Chat">
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ainsigne.profile.presenter.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>
